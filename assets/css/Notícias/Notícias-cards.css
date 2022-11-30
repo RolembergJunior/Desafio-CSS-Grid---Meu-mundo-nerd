@@ -1,0 +1,39 @@
+.noticias__card{
+    background: url(../../img/Vidas-ao-Vento-Naoko-img.png) no-repeat center / cover;
+    width: 338px;
+    height: 250px;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+
+.noticias__card:nth-child(2){
+    background: url(../../img/GTA-5-img.png) no-repeat center / cover;
+
+
+}
+
+.noticias__card:nth-child(3){
+    background: url(../../img/Vikings-img.png) no-repeat center / cover;
+    margin-right: 0;
+
+}
+
+.noticias__card:nth-child(4){
+    background: url(../../img/soul-img.png) no-repeat center / cover;
+
+}
+
+.noticias__card:nth-child(5){
+    background: url(../../img/your-name-img.png) no-repeat center / cover;
+
+
+}
+
+.noticias__card:nth-child(6){
+    background: url(../../img/LOL-img.png) no-repeat center / cover;
+    margin-right: 0;
+
+}
+
+
+

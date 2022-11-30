@@ -1,0 +1,11 @@
+.destaques__secundarios:nth-child(2){
+    background: url(../../img/Attack-pn-titan-img.png) no-repeat center / cover;
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.destaques__secundarios:nth-child(3){
+    background: url(../../img/Arcane-img.png) no-repeat center / cover;
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}

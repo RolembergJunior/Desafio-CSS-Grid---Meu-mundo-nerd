@@ -1,0 +1,5 @@
+.destaques__principal{
+    background: url(../../img/The-walking-dead-img.png) no-repeat center / cover ;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}

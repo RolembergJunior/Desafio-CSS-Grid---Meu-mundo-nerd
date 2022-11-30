@@ -1,0 +1,7 @@
+.noticias__texto{
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--cor--textos);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 2rem;
+}

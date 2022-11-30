@@ -1,0 +1,7 @@
+.cabecalho__links{
+    color: inherit;
+}
+
+.cabecalho__links:last-child{
+    margin: .2rem 0;
+}

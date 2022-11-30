@@ -1,0 +1,12 @@
+.cabecalho__itens{
+    margin-right: 7rem;
+    font-size: 16px;
+}
+
+.cabecalho__itens:last-child{
+    border: 1px solid var(--cor--roxa);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 0;
+    width: 120px;
+}

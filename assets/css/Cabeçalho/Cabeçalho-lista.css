@@ -1,0 +1,7 @@
+.cabecalho__lista{
+    display: flex;
+    color: var(--cor--textos);
+    font-weight: 500;
+
+}
+

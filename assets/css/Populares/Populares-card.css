@@ -1,0 +1,29 @@
+.populares__card{
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.populares__card:nth-child(2){
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.populares__card:nth-child(3){
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.populares__card:nth-child(4){
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+}
+
+.populares__card:nth-child(5){
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+}
+
+.populares__card:nth-child(6){
+    width: 20rem;
+}
+

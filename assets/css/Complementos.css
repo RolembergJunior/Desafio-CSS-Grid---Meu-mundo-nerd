@@ -1,0 +1,7 @@
+.complementos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 600px;
+    height: 600px;
+}

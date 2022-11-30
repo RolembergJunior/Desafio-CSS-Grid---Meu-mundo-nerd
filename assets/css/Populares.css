@@ -1,0 +1,7 @@
+.populares{
+    display: grid;
+    grid-template-columns: 1fr 21.125rem;
+    margin: 5rem 0;
+
+}
+

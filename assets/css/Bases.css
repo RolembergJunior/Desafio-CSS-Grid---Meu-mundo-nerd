@@ -1,0 +1,25 @@
+:root{
+    --font-family: font-family: 'Lexend Deca', sans-serif;
+    --background--site: #13131F;
+    --cor--roxa: #8257E6;
+    --cor--textos: #fdfdfd;
+}
+
+.caixa{
+    align-items: flex-end;
+    display: flex;
+    font-family: 'Lexend Deca';
+    justify-content: center;
+}
+
+html{
+    background: var(--background--site);
+    font-family: var(--font-family);
+}
+
+.botao{
+    background: var(--cor--roxa);
+    color: var(--cor--textos);
+    height: 30px;
+    width: 100px;
+}

@@ -1,0 +1,15 @@
+.complementos__card{
+    background: url(../../img/God-of-war-img.png) no-repeat center / cover;
+    width: 20rem;
+}
+
+.complementos__card:nth-child(2){
+    background: url(../../img/A-Viagem-de-Chihiro-chihiro-e-haku-img.png) no-repeat center / cover;
+    width: 20rem;
+}
+
+.complementos__card:nth-child(3){
+    background: url(../../img/A-rede-social-img.png) no-repeat center / cover;
+    width: 20rem;
+}
+

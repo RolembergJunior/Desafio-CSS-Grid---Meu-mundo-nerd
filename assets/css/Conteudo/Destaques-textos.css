@@ -1,0 +1,16 @@
+.destaques__texto___principal{
+    background:  rgba(19, 19, 31, .5) ;
+    color: var(--cor--textos);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+
+.destaques__texto{
+    background:  rgba(19, 19, 31, .5) ;
+    color: var(--cor--textos);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 2rem;
+}

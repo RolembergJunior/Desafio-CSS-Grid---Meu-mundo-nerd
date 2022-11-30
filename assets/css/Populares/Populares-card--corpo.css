@@ -1,0 +1,9 @@
+.populares__card___corpo{
+    display: flex;
+    color: var(--cor--textos);
+    flex-direction: column;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    width: 500px;
+    margin-left: 1rem;
+}
