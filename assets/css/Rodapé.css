@@ -1,5 +1,7 @@
 .rodape{
     color: var(--cor--textos);
+    font-family:'Lexend Deca';
+    font-weight: 300;
     text-align: center;
     padding: 2rem 0;
     width: 500px;
