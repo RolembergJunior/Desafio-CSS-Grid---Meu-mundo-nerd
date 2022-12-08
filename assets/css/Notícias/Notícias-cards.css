@@ -1,35 +1,35 @@
 .noticias__card{
-    background: url(../../img/Vidas-ao-Vento-Naoko-img.png) no-repeat center / cover;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/Vidas-ao-Vento-Naoko-img.png) no-repeat center / cover;
     width: 420px;
     height: 250px;
     margin-bottom: 3rem;
 }
 
 .noticias__card:nth-child(2){
-    background: url(../../img/GTA-5-img.png) no-repeat center / cover;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/GTA-5-img.png) no-repeat center / cover;
 
 
 }
 
 .noticias__card:nth-child(3){
-    background: url(../../img/Vikings-img.png) no-repeat center / cover;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/Vikings-img.png) no-repeat center / cover;
     margin-right: 0;
 
 }
 
 .noticias__card:nth-child(4){
-    background: url(../../img/soul-img.png) no-repeat center / cover;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/soul-img.png) no-repeat center / cover;
 
 }
 
 .noticias__card:nth-child(5){
-    background: url(../../img/your-name-img.png) no-repeat center / cover;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/your-name-img.png) no-repeat center / cover;
 
 
 }
 
 .noticias__card:nth-child(6){
-    background: url(../../img/LOL-img.png) no-repeat center / cover;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/LOL-img.png) no-repeat center / cover;
     margin-right: 0;
 
 }
