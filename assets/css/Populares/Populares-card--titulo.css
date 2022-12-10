@@ -3,3 +3,9 @@
     font-weight: 400;
     line-height: 20px;
 }
+
+@media screen and (min-width: 0px) {
+    .populares__card___titulo{
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+    }
+}

@@ -5,3 +5,9 @@
     width: 500px;
     margin-bottom: 5rem;
 }
+
+@media screen and (min-width: 0px){
+    .conteudo__corpo{
+        width: 100%;
+    }
+}

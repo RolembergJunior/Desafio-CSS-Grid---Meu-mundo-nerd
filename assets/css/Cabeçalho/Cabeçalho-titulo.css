@@ -3,3 +3,9 @@
     font-size: 24px;
     font-weight: 400;
 }
+
+@media screen and (min-width: 0px){
+    .cabecalho__titulo{
+        margin-bottom: 1.5rem;
+    }
+}

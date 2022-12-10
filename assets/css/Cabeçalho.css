@@ -3,3 +3,9 @@
     padding: 1.5rem 0;
     font-family: 'Lexend Deca';
 }
+
+@media screen and (min-width: 0px){
+    .cabecalho{
+        margin: 0 2.5rem;
+    }
+}

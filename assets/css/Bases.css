@@ -19,6 +19,7 @@ html{
 
 .botao{
     background: var(--cor--roxa);
+    border-radius: 5px;
     color: var(--cor--textos);
     height: 30px;
     width: 100px;

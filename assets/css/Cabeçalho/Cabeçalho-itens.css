@@ -10,3 +10,14 @@
     margin-right: 0;
     width: 120px;
 }
+
+@media screen and (min-width: 0px){
+    .cabecalho__itens{
+        display: none;
+    }
+
+    .cabecalho__itens:last-child{
+        display: inline;
+        width: 100%;
+    }
+}

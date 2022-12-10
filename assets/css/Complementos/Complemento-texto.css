@@ -1,0 +1,5 @@
+.complementos__texto{
+    color: var(--cor--textos);
+    font-size: 13px;
+    padding: .5rem;
+}

@@ -7,7 +7,7 @@
     margin: .2rem 0;
 }
 
-.cabecalho__links:active{
+.cabecalho__links:hover{
     border-bottom: var(--cor--roxa) 3px solid;
 }
 
