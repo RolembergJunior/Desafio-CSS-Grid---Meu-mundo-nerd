@@ -1,0 +1,29 @@
+.campo__escrita{
+    border-radius: 5px;
+    height: 50px;
+}
+
+
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalido .input {
+    border: 1px solid var(--cor--aviso);
+    border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+    color: var(--cor--aviso);
+}
+
+.input-mensagem-erro{
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: var(--cor--aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

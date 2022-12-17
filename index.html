@@ -43,6 +43,11 @@
     <link rel="stylesheet" href="./assets/css/Notícias/Notícias-caixa.css">
     <link rel="stylesheet" href="./assets/css/Notícias/Notícias-cards.css">
     <link rel="stylesheet" href="./assets/css/Notícias/">
+    <link rel="stylesheet" href="./assets/css/Formulários.css">
+    <link rel="stylesheet" href="./assets/css/Formulários/Cadastro__titulo.css">
+    <link rel="stylesheet" href="./assets/css/Formulários/Formulário__campo.css">
+    <link rel="stylesheet" href="./assets/css/Formulários/Formulário--etiqueta.css">
+    <link rel="stylesheet" href="./assets/css/Formulários/Formulário--input.css">
     <link rel="stylesheet" href="./assets/css/Rodapé.css">
     <link rel="stylesheet" href="./assets/css/Rodape/Rodapé-titulo.css">
     <link rel="stylesheet" href="./assets/css/Rodape/Rodapé-texto.css">
@@ -220,10 +225,48 @@
     </main>
 
     <footer>
-        <div class="rodape">
-            <h3 class="rodape__titulo">Naped</h3>
-            <p class="rodape__texto">Todas as imagens de filmes, séries e etc são marcas registradas dos seus respectivos proprietários.</p>
-        </div>
+
+        <section class="formularios">
+            <h2 class="cadastro__titulo">Dados para Registro</h2>
+
+            <form action="" class="formularios__cadastro">
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="nome">Nome</label>
+                    <input class="campo__escrita input" name="nome" id="nome" data-tipo ="nome" type="text" required placeholder="Nome"></input>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="contato">Contato</label>
+                    <input class="campo__escrita input" name="telefone" id="telefone" data-tipo ="telefone" type="tel" required placeholder="Telefone" pattern="/(\d{2}/)9[0-9]{4}/-?[0-9]{4}"></input>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="nascimento">Data de Nascimento</label>
+                    <input class="campo__escrita input" name="data" id="data" data-tipo ="data" type="date" required ></input>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="email">E-mail</label>
+                    <input class="campo__escrita input" name="email" id="emial" data-tipo ="email" type="email" required placeholder="E-mial"></input>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="senha">Senha</label>
+                    <input class="campo__escrita input" name="senha" id="senha" data-tipo ="senha" type="password" required placeholder="Senha"></input>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+
+                <button class="formulario__botao" value="Enviar Formulário" type="submit" id="enviar">Registrar-se</button>
+            </form>
+
+
+            <div class="rodape">
+                <h3 class="rodape__titulo">Naped</h3>
+                <p class="rodape__texto">Todas as imagens de filmes, séries e etc são marcas registradas dos seus respectivos proprietários.</p>
+            </div>
+        </section>
+
+        <script src="./assets/js/main.js" type="module"></script>
     </footer>
 
 </body>

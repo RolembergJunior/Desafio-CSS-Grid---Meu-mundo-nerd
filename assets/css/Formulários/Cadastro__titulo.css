@@ -1,0 +1,9 @@
+.cadastro__titulo{
+    border-bottom: 5px solid var(--cor--roxa);
+    color: var(--cor--textos);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    width: 300px;
+}
