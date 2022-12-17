@@ -10,3 +10,10 @@
         display: none;
     }
 }
+
+
+@media screen and (min-width: 990px) {
+    .populares__card___texto{
+        display: inline;
+    }
+}

@@ -35,4 +35,18 @@
 }
 
 
+@media screen and (min-width: 0px) {
+    .noticias__card{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 990px) {
+    .noticias__card{
+        width: 420px;
+    }
+}
+
+
 

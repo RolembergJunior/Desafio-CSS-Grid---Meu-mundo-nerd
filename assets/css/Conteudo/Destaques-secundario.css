@@ -1,12 +1,10 @@
 .destaques__secundarios:nth-child(2){
     background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/Attack-pn-titan-img.png) no-repeat center / cover;
-    grid-column: 3 / 3;
     grid-row: 1 / 1;
 }
 
 .destaques__secundarios:nth-child(3){
     background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/Arcane-img.png) no-repeat center / cover;
-    grid-column: 3 / 3;
     grid-row: 2 / 2;
 }
 
@@ -21,5 +19,22 @@
     .destaques__secundarios:nth-child(3){
         grid-column: none;
         display: none;
+    }
+}
+
+
+
+
+@media screen and (min-width: 990px){
+    .destaques__secundarios:nth-child(2){
+        grid-column: 3 / 3;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 990px){
+    .destaques__secundarios:nth-child(3){
+        grid-column: 3 / 3;
+        display: flex;
     }
 }

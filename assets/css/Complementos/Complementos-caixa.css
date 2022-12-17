@@ -1,20 +1,32 @@
 .complementos__card{
     background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/God-of-war-img.png) no-repeat center / cover;
-    width: 20rem;
+    width: auto;
     height: 250px;
 }
 
 .complementos__card:nth-child(2){
     background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/A-Viagem-de-Chihiro-chihiro-e-haku-img.png) no-repeat center / cover;
-    width: 20rem;
+    width: auto;
     display: flex;
     height: 250px;
 }
 
 .complementos__card:nth-child(3){
     background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../../img/A-rede-social-img.png) no-repeat center / cover;
-    width: 20rem;
+    width: auto;
     display: flex;
     height: 250px;
+}
+
+@media screen and (min-width: 0px) {
+    .complementos__card{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .complementos__card{
+        margin-bottom: 1.5rem;
+    }
 }
 

@@ -1,5 +1,4 @@
 .populares{
-    display: grid;
     grid-template-columns: 1fr 21.125rem;
     margin: 5rem 0;
 
@@ -10,6 +9,27 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 5rem 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 0px) {
+    .populares__caixa{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .populares__caixa{
+        width: auto;
+    }
+}
+
+
+
+@media screen and (min-width: 990px) {
+    .populares{
+        display: grid;
     }
 }

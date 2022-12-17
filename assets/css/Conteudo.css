@@ -7,3 +7,9 @@
         margin: 7rem 2.5rem;
     }
 }
+
+@media screen and (min-width: 990px){
+    .conteudo{
+        margin: 7rem 8rem;
+    }
+}

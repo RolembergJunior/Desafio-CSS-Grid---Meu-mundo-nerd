@@ -1,3 +1,13 @@
-.populares__card___botao{
-    
+
+@media screen and (min-width: 0px) {
+    .populares__card___botao{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 990px) {
+    .populares__card___botao{
+        width: 100px;
+    }
 }

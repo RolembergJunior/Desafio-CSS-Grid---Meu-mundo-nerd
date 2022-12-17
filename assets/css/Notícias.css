@@ -1,8 +1,4 @@
 .noticias{
-    display: flex;
-    flex-wrap: wrap;
     font-family:  'Lexend Deca';
-    justify-content: space-between;
     margin: 2rem 0;
-    margin-right: 1rem;
 }

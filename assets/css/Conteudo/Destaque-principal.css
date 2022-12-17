@@ -11,3 +11,9 @@
         grid-column: 1 / 5;
     }
 }
+
+@media screen and (min-width: 990px){
+    .destaques__principal{
+        grid-column: 1 / 3;
+    }
+}

@@ -1,5 +1,4 @@
 .cabecalho{
-    margin: 0 10rem;
     padding: 1.5rem 0;
     font-family: 'Lexend Deca';
 }
@@ -7,5 +6,12 @@
 @media screen and (min-width: 0px){
     .cabecalho{
         margin: 0 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 990px){
+    .cabecalho{
+        margin: 0 8rem;
     }
 }

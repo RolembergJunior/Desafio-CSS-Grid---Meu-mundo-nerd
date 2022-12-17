@@ -3,3 +3,16 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 0px) {
+    .complemento__box{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 990px) {
+    .complemento__box{
+        display: flex;
+    }
+}

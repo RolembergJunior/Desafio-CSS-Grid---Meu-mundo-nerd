@@ -9,3 +9,16 @@
         margin-bottom: 1.5rem;
     }
 }
+
+@media screen and (min-width: 768px){
+    .cabecalho__titulo{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 990px){
+    .cabecalho__titulo{
+        margin-bottom: 0;
+    }
+}

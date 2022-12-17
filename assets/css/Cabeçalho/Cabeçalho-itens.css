@@ -21,3 +21,21 @@
         width: 100%;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .cabecalho__itens{
+        display: inline;
+    }
+
+    .cabecalho__itens:last-child{
+        display: inline;
+        width: 120px;
+    }
+}
+
+
+

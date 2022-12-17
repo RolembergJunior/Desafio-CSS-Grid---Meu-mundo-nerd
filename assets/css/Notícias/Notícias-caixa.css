@@ -1,2 +1,5 @@
 .noticias__caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
