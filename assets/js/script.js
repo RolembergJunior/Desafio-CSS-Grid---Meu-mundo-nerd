@@ -2,7 +2,7 @@
  export function valida (input) {
     const tiposDeInput = input.dataset.tipo;
 
-    
+
     if(input.validity.valid) {
         input.parentElement.ClassList.remove('input-container--invalido');
         input.parentElement.querySelector('.input-mensagem-erro').innerHTML = '';
@@ -51,11 +51,19 @@ function mostraMensagemErro (tiposDeInput, input) {
 
     tiposDeErro.forEach( Erro => {
         if(input.validity[Erro]) {
-            mensagem = mensagensDeErro[tiposDeInput][Erro]
-
-            console.log(Erro)
+            mensagem = mensagensDeErro[tiposDeInput][Erro];
         }
     })
 
-    return mensagem
+    return mensagem;
 }
+
+
+
+
+
+
+
+
+
+
