@@ -58,6 +58,22 @@ function mostraMensagemErro (tiposDeInput, input) {
     return mensagem;
 }
 
+export function exibirFilmesNaTela(listaDeFilmes) {
+    const elementoParaInserirFilmes = document.getElementById("filmes");
+    elementoParaInserirFilmes.innerHTML = '';
+    listaDeFilmes.forEach(elemento => {
+        elementoParaInserirFilmes.innerHTML += 
+        `<div class="filmesCards">
+        <img class="imagemFilme" src=https://image.tmdb.org/t/p/w300/${elemento.poster_path} alt="" >
+        <h2 class="tituloFilme">${elemento.title}</h2>
+    </div>`
+
+})
+}
+
+
+
+
 
 
 
